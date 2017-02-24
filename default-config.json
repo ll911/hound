@@ -1,5 +1,5 @@
 {
-  "dbpath" : "db",
+  "dbpath" : "/data/db",
   "repos" : {
     "Hound" : {
       "url" : "https://github.com/ll911/hound.git"
