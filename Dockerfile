@@ -11,10 +11,12 @@ RUN apk update \
 	&& go install hound/cmds/houndd \
 	&& apk del go \
 	&& rm -f /var/cache/apk/* \
-	&& rm -rf /go/src /go/pkg
+	&& rm -rf /go/pkg
+
+#&& rm -rf /go/src /go/pkg
 
 VOLUME ["/data"]
 
 EXPOSE 6080
 
-ENTRYPOINT ["/go/bin/houndd", "-conf", "/data/config.json"]
+ENTRYPOINT ["/go/bin/houndd", "-conf", "/go/src/hound/default-config.json"]
