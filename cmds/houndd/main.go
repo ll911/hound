@@ -11,10 +11,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/etsy/hound/api"
-	"github.com/etsy/hound/config"
-	"github.com/etsy/hound/searcher"
-	"github.com/etsy/hound/ui"
+	"hound/api"
+	"hound/config"
+	"hound/searcher"
+	"hound/ui"
 )
 
 const gracefulShutdownSignal = syscall.SIGTERM
