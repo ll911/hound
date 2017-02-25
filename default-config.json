@@ -1,8 +1,8 @@
 {
   "dbpath" : "/data/db",
   "repos" : {
-    "Hound" : {
-      "url" : "https://github.com/ll911/hound.git"
+    "ckan" : {
+      "url" : "https://github.com/bcgov/ckan.git"
     },
     "ckanext-bcgov" : {
       "url" : "https://github.com/bcgov/ckanext-bcgov.git"
