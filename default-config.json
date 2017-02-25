@@ -4,7 +4,7 @@
     "Hound" : {
       "url" : "https://github.com/ll911/hound.git"
     },
-    "BCDC" : {
+    "ckanext-bcgov" : {
       "url" : "https://github.com/bcgov/ckanext-bcgov.git"
     },
     "Subversion" : {
