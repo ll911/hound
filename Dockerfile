@@ -19,4 +19,4 @@ VOLUME ["/data"]
 
 EXPOSE 6080
 
-ENTRYPOINT ["/go/bin/houndd", "-conf", "https://raw.githubusercontent.com/ll911/hound/master/default-config.json"]
+ENTRYPOINT ["/go/bin/houndd", "-conf", "/go/src/hound/default-config.json"]
