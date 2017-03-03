@@ -7,12 +7,11 @@
     "ckanext-bcgov" : {
       "url" : "https://github.com/bcgov/ckanext-bcgov.git"
     },
-    "Subversion" : {
-      "url" : "http://apps.bcgov/svn/ge2017/sites",
-      "url-pattern" : { 
-            "base-url" : "{url}/{path}{anchor}"
-          },
-      "vcs" : "svn"
-      }
+    "data-fp" : {
+      "url" : "https://github.com/bcgov/data-fp.git"
+    },
+    "data-fp-features" : {
+      "url" : "https://github.com/bcgov/data-fp-features.git"
+    },
   }
 }
