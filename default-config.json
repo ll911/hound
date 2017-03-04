@@ -1,6 +1,9 @@
 {
   "dbpath" : "/data/db",
   "repos" : {
+    "bcnames" : {
+      "url": "https://github.com/ll911/bcnames.git"
+    },
     "ckan" : {
       "url" : "https://github.com/bcgov/ckan.git"
     },
